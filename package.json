@@ -1,0 +1,28 @@
+{
+  "name": "proffy",
+  "version": "1.0.0",
+  "description": "A learning platform made with Typescript, Node.js, React and React Native to help teachers connect with students from anywhere",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelgeronimo/proffy.git"
+  },
+  "keywords": [
+    "rocketseat",
+    "proffy",
+    "next",
+    "level",
+    "week",
+    "gostack",
+    "omnistack"
+  ],
+  "author": "Rafael Geronimo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rafaelgeronimo/proffy/issues"
+  },
+  "homepage": "https://github.com/rafaelgeronimo/proffy#readme"
+}
