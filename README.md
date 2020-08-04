@@ -5,10 +5,10 @@
 
 <hr/>
 <p>
-<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/raphabarreto/proffy">
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/raphabarreto/proffy">
-<a href="https://github.com/raphabarreto/proffy/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/raphabarreto/proffy">
+<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/rafaelgeronimo/proffy">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/rafaelgeronimo/proffy">
+<a href="https://github.com/rafaelgeronimo/proffy/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/rafaelgeronimo/proffy">
   </a>
 <a href="https://github.com/rafaelgeronimo/proffy#readme">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" target="_blank" />
