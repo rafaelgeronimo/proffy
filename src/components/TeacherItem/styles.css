@@ -72,7 +72,7 @@
 }
 
 .teacher-item footer button:hover {
-    background: var(--color-secunday-dark);
+    background: var(--color-secundary-dark);
 }
 
 @media (min-width: 700px) {
