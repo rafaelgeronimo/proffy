@@ -3,31 +3,50 @@ import React from 'react';
 import whatsappIcon from '../../assets/images/icons/whatsapp.svg';
 
 import './styles.css';
+import api from '../../services/api';
 
-function TeacherItem() {
+export interface Teacher {
+    id: number;
+    avatar: string;
+    bio: string;
+    cost: number;
+    name: string;
+    subject: string;
+    whatsapp: string;
+};
+
+interface TeacherItemProps {
+    teacher: Teacher;
+}
+const TeacherItem: React.FC<TeacherItemProps> = ({ teacher }) => {
+
+    function createNewConnection() {
+        api.post('connections', {
+            user_id: teacher.id,
+        })
+    }
+
     return (
         <article className="teacher-item">
         <header>
-            <img src="https://avatars1.githubusercontent.com/u/13686254?s=460&u=3e5073e8194554fd748465611d395b9c0ab1be96&v=4" alt="Rafael Geronimo"/>
+            <img src={teacher.avatar} alt={teacher.name} />
             <div>
-                <strong>Rafael Geronimo</strong>
-                <span>Matemática</span>
+                <strong>{teacher.name}</strong>
+                <span>{teacher.subject}</span>
             </div>
         </header>
         <p>
-        Mussum Ipsum, cacilds vidis litro abertis.
-        <br /><br />
-        Sapien in monti palavris qui num significa nadis i pareci latim. Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi. Suco de cevadiss deixa as pessoas mais interessantis.
+        {teacher.bio}
         </p>
         <footer>
             <p>
                 Preço/hora
-                <strong>R$ 50,00</strong>
+                <strong>R$ {teacher.cost}</strong>
             </p>
-            <button type="button">
+            <a target="_blank" onClick={createNewConnection} href={`https://wa.me/${teacher.whatsapp}`}>
                 <img src={whatsappIcon} alt="Whatsapp" />
                 Entrar em contato
-            </button>
+            </a>
         </footer>
         </article>
     );
