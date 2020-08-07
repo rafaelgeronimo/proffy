@@ -22,22 +22,34 @@
 
 # :pushpin: Table of Contents
 <p align="center">
-  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-frontend">Frontend</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-backend">Backend</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-mobile">Mobile</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-installation">How to run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-issues">Issues</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-license">License</a>
 </p>
 
 ---
 
-## 🚀 Technologies
+## 🚀 Tecnologias
 
-This project was developed with the following technologies:
+Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 - [Node.js](https://nodejs.org/en/)
 - [React](https://reactjs.org)
 
 ---
+
+## Frontend
+
+É possível acessar o resultado final (parcial) em [https://proffy.vercel.app](https://proffy.vercel.app)
+- Ainda não há integração com backend.
+
+![](https://i.imgur.com/2lejDRg.png)
+
+---
+
+## Backend
+
+O backend ainda não está disponível online.
+O repositório é acessível em https://github.com/rafaelgeronimo/proffy-server
