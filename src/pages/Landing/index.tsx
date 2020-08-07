@@ -18,7 +18,7 @@ function Landing() {
 
             setTotalConnections(total);
         })
-    }, [])
+    }, []);
 
     return (
         <div id="page-landing">
