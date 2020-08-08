@@ -20,7 +20,7 @@
 
 :rocket: Made to connect teachers and students. Developed in Next Level Week #2 @Rocketseat
 
-# :pushpin: Table of Contents
+# :pushpin: Conteúdo (README em desenvolvimento - sorry)
 <p align="center">
   <a href="#-technologies">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-frontend">Frontend</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -42,8 +42,9 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 ## Frontend
 
-É possível acessar o resultado final (parcial) em [https://proffy.vercel.app](https://proffy.vercel.app)
-- Ainda não há integração com backend.
+É possível acessar o resultado final (1.0) em [https://proffy.vercel.app](https://proffy.vercel.app)<br>
+Totalmente funcional
+
 
 ![](https://i.imgur.com/2lejDRg.png)
 
@@ -51,5 +52,5 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 ## Backend
 
-O backend ainda não está disponível online.
+Foi realizado deploy do backend em [https://proffy-server.herokuapp.com/](https://proffy-server.herokuapp.com/).<br>
 O repositório é acessível em https://github.com/rafaelgeronimo/proffy-server
